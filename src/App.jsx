@@ -1,6 +1,8 @@
 import './App.scss'
 import Dock from './components/Dock.jsx';
 import Navbar from './components/Navbar.jsx';
+import Github from './components/windows/Github.jsx';
+
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
      <main>
       <Navbar />
           <Dock />
+          <Github />
+         
      </main>
     </>
   )

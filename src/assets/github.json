@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+        "title": "E-Commerce Web Application",
+        "description": "A full-stack e-commerce platform with user authentication, product management, cart functionality, and online payment integration.",
+        "tags": [
+            "React",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Stripe"
+        ],
+        "repoLink": "https://github.com/yourusername/ecommerce-app",
+        "demoLink": "https://ecommerce-demo.vercel.app"
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+        "title": "Student Management System",
+        "description": "A web-based student management system to manage student records, attendance, and results with admin dashboard.",
+        "tags": [
+            "ASP.NET Core",
+            "C#",
+            "SQL Server",
+            "Bootstrap",
+            "Entity Framework"
+        ],
+        "repoLink": "https://github.com/yourusername/student-management-system",
+        "demoLink": "https://student-management-demo.azurewebsites.net"
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7",
+        "title": "Task Management (CRUD) App",
+        "description": "A CRUD-based task manager application where users can add, update, delete and filter tasks with authentication system.",
+        "tags": [
+            "React",
+            "Node.js",
+            "Express",
+            "MySQL",
+            "JWT"
+        ],
+        "repoLink": "https://github.com/yourusername/task-manager",
+        "demoLink": null
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website to showcase projects, skills, resume and contact information with responsive design.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "EmailJS"
+        ],
+        "repoLink": "https://github.com/yourusername/portfolio-website",
+        "demoLink": "https://yourportfolio.vercel.app"
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72",
+        "title": "Inventory Management System",
+        "description": "A secure inventory management system for businesses to track stock, sales reports, suppliers and invoices.",
+        "tags": [
+            "ASP.NET MVC",
+            "SQL Server",
+            "Bootstrap",
+            "jQuery"
+        ],
+        "repoLink": "https://github.com/yourusername/inventory-system",
+        "demoLink": null
+    }
+]
