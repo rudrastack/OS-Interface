@@ -5,6 +5,7 @@ import Github from './components/windows/Github.jsx';
 import Notes from './components/windows/notes.jsx';
 import Pdf from './components/windows/pdf.jsx';
 import Spotify from './components/windows/Spotify.jsx';
+import Cli from './components/windows/Cli.jsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Notes />
         <Pdf />
         <Spotify />
+        <Cli />
       </main>
     </>
   )
