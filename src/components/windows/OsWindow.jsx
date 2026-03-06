@@ -2,13 +2,13 @@ import React from 'react'
 import { Rnd } from 'react-rnd'
 import './OsWindow.scss'
 
-const OsWindow = ({children}) => {
+const OsWindow = ({children, width = "40vw", height = "40vh"}) => {
   return (
     <Rnd default={{
         x: 300,
         y: 200,
-        width: "40vw",
-        height: "40vh",
+        width: width,
+        height: height,
     }}>
         <div className="os-window">
             <div className="window-header">
