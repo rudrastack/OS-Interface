@@ -3,9 +3,9 @@ import OsWindow from './OsWindow'
 import Terminal from 'react-console-emulator'
 import './Cli.scss'
 
-const Cli = () => {
+const Cli = ({windowName, isOpen, setIsOpen}) => {
   return (
-    <OsWindow>
+    <OsWindow windowName={windowName} isOpen={isOpen} setIsOpen={setIsOpen}>
 <div className="Cli-window">
     <Terminal
     commands={{

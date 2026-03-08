@@ -3,9 +3,9 @@ import OsWindow from './OsWindow'
 import './Pdf.scss'
 
 
-const Pdf = () => {
+const Pdf = ({windowName, isOpen, setIsOpen}) => {
   return (
-    <OsWindow>
+    <OsWindow windowName={windowName} isOpen={isOpen} setIsOpen={setIsOpen} title="Pdf">
         <div className="pdf-window">
             <iframe src="/resume.pdf" frameborder="0"></iframe>
         </div>

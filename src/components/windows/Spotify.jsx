@@ -2,9 +2,9 @@ import React from 'react'
 import OsWindow from './OsWindow'
 import './Spotify.scss'
 
-const Spotify = () => {
+const Spotify = ({windowName, isOpen, setIsOpen}) => {
     return (
-        <OsWindow width="25vw" >
+        <OsWindow windowName={windowName} isOpen={isOpen} setIsOpen={setIsOpen} width="25vw" height="22vh" >
             <div className="window-spotify">
                 <iframe data-testid="embed-iframe" style={{borderRadius: '12px'}} 
                 src="https://open.spotify.com/embed/playlist/37i9dQZF1DXbVhgADFy3im?utm_source=generator&theme=0" 
